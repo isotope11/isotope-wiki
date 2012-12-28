@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.9'
-gem 'wacky', github: 'isotope11/wacky'
+gem 'wacky', git: 'git@github.com:isotope11/wacky.git'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
