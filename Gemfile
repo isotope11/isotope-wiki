@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.9'
+gem 'wikitop', git: 'git@github.com:knewter/wikitop' # Shouldn't need this, but is ok for now
 gem 'wacky', git: 'git@github.com:isotope11/wacky.git'
 
 # Bundle edge Rails instead:

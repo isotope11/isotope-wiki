@@ -8,6 +8,13 @@ GIT
       slim
       wikitop
 
+GIT
+  remote: git@github.com:knewter/wikitop
+  revision: b6c5f2dc72e0448c204563775f9c8649d16b0a52
+  specs:
+    wikitop (0.0.2)
+      treetop
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -128,8 +135,6 @@ GEM
     uglifier (1.3.0)
       execjs (>= 0.3.0)
       multi_json (~> 1.0, >= 1.0.2)
-    wikitop (0.0.2)
-      treetop
 
 PLATFORMS
   ruby
@@ -143,3 +148,4 @@ DEPENDENCIES
   sass-rails (~> 3.2.3)
   uglifier (>= 1.0.3)
   wacky!
+  wikitop!
