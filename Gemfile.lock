@@ -1,5 +1,6 @@
-PATH
-  remote: /home/jadams/rails/wacky
+GIT
+  remote: git@github.com:isotope11/wacky.git
+  revision: 9c15db67c872c901581e0fb2aff20cef6b500057
   specs:
     wacky (0.0.1)
       rails (~> 3.2.9)
