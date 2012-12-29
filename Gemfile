@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.9'
 gem 'wikitop', git: 'git@github.com:knewter/wikitop' # Shouldn't need this, but is ok for now
 gem 'wacky', git: 'git@github.com:isotope11/wacky.git'
+#gem 'wacky', path: '/home/jadams/rails/wacky'
+gem 'slim'
+gem 'compass-rails'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'

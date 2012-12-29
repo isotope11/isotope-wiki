@@ -1,0 +1,20 @@
+@import 'compass';
+@import 'compass/css3';
+$default-text: #444;
+$lighter-text: #888;
+$link-color: #75959D;
+$visited-text: lighten($link-color, .2);
+$standard-radius: 5px;
+$primary-gradient-base-color: #e6e6e6;
+$primary-gradient-highlight-color: white;
+$primary-gradient: linear-gradient($primary-gradient-highlight-color, $primary-gradient-base-color);
+
+body{
+  font: 12pt Ubuntu, "Helvetica Neue", Helvetica;
+}
+a{
+  color: $link-color;
+  &:visited {
+    color: $visited-text;
+  }
+}
