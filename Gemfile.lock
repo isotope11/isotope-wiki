@@ -1,6 +1,6 @@
 GIT
   remote: git@github.com:isotope11/wacky.git
-  revision: fdfa2dd21319747afab9a8d0b8f07b9f653d8724
+  revision: d57d950802ec9b1af41754221f093fccfb9d32be
   specs:
     wacky (0.0.1)
       rails (~> 3.2.9)
