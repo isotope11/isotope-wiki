@@ -1,21 +1,21 @@
 GIT
-  remote: git@github.com:isotope11/wacky.git
-  revision: d161174e2185c293560869e17b87445e8be76805
-  specs:
-    wacky (0.0.1)
-      ace-rails-ap
-      jquery-rails
-      rails (~> 3.2.9)
-      redcarpet
-      slim
-      wikitop
-
-GIT
   remote: git@github.com:knewter/wikitop
   revision: 9e33dfcee9e2d5b07acf8e1e6d219609898a391b
   specs:
     wikitop (0.0.3)
       treetop
+
+PATH
+  remote: /home/jadams/rails/wacky
+  specs:
+    wacky (0.0.1)
+      ace-rails-ap
+      jquery-rails
+      paper_trail
+      rails (~> 3.2.9)
+      redcarpet
+      slim
+      wikitop
 
 GEM
   remote: https://rubygems.org/
@@ -95,6 +95,9 @@ GEM
     net-ssh (2.6.2)
     net-ssh-gateway (1.1.0)
       net-ssh (>= 1.99.1)
+    paper_trail (2.7.0)
+      activerecord (~> 3.0)
+      railties (~> 3.0)
     pg (0.14.1)
     polyglot (0.3.3)
     rack (1.4.1)
