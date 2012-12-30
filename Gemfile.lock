@@ -1,12 +1,6 @@
 GIT
-  remote: git@github.com:knewter/wikitop
-  revision: 9e33dfcee9e2d5b07acf8e1e6d219609898a391b
-  specs:
-    wikitop (0.0.3)
-      treetop
-
-PATH
-  remote: /home/jadams/rails/wacky
+  remote: git@github.com:isotope11/wacky.git
+  revision: efd1360cc3f187efb90b90e36af24c5b9cbc2ffe
   specs:
     wacky (0.0.1)
       ace-rails-ap
@@ -16,6 +10,13 @@ PATH
       redcarpet
       slim
       wikitop
+
+GIT
+  remote: git@github.com:knewter/wikitop
+  revision: 9e33dfcee9e2d5b07acf8e1e6d219609898a391b
+  specs:
+    wikitop (0.0.3)
+      treetop
 
 GEM
   remote: https://rubygems.org/
