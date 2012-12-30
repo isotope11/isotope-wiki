@@ -1,5 +1,7 @@
 @import 'compass';
 @import 'compass/css3';
+@import 'compass/utilities';
+
 $default-text: #444;
 $lighter-text: #888;
 $link-color: #75959D;
@@ -8,9 +10,18 @@ $standard-radius: 5px;
 $primary-gradient-base-color: #e6e6e6;
 $primary-gradient-highlight-color: white;
 $primary-gradient: linear-gradient($primary-gradient-highlight-color, $primary-gradient-base-color);
+$header-background-top: #75959D;
+$header-background-middle: #698891;
+$header-background-bottom: #5D7A82;
+$header-gradient: linear-gradient($header-background-top, $header-background-middle 30%, $header-background-bottom);
 
 body{
   font: 12pt Ubuntu, "Helvetica Neue", Helvetica;
+  padding: 0;
+  margin: 0;
+}
+#container{
+  padding: 1em;
 }
 a{
   color: $link-color;
@@ -42,11 +53,8 @@ table.subdued{
   }
 }
 ul.actions {
-  padding-left: 0;
+  @include horizontal-list;
   li{
-    display: inline-block;
-    list-style-type: none;
-    margin-right: 1em;
     a{
       border: 1px solid #ccc;
       font-size: .85em;
@@ -65,5 +73,34 @@ ul.actions {
         @include single-transition(background-position, 0.1s, linear);
       }
     }
+  }
+}
+
+nav#main-nav{
+  @include background-image($header-gradient);
+  @include single-box-shadow;
+  padding: .5em 1em;
+  ul {
+    @include horizontal-list;
+    display: inline-block;
+    li{
+      a{
+        display: block;
+        color: white;
+        text-decoration: none;
+        padding: 1em;
+        &:hover {
+          background-color: $header-background-bottom;
+        }
+      }
+    }
+  }
+  .logo{
+    display: inline-block;
+    background: url('http://xrono.isotope11.com/system/site_logos/1/original/isotope_logo.png?1330143115');
+    width: 130px;
+    height: 40px;
+    position: relative;
+    top: -.25em;
   }
 }

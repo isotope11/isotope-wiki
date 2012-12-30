@@ -8,6 +8,9 @@ html
     = stylesheet_link_tag    "application", :media => "all"
     = csrf_meta_tags
   body
-    = yield
+    nav#main-nav
+      .logo
+      = render_navigation(:level => :all, :expand_all => true)
+    #container
+      = yield
     br
-    = link_to 'Home', '/'
