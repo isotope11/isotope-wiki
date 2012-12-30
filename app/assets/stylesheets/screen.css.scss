@@ -85,12 +85,17 @@ nav#main-nav{
     display: inline-block;
     li{
       a{
+        font-size: .85em;
         display: block;
         color: white;
         text-decoration: none;
-        padding: 1em;
+        padding: .8em .8em 1em;
+        @include border-radius($standard-radius);
         &:hover {
           background-color: $header-background-bottom;
+        }
+        &.selected {
+          background-color: #222;
         }
       }
     }
@@ -102,5 +107,6 @@ nav#main-nav{
     height: 40px;
     position: relative;
     top: -.25em;
+    margin-right: 1em;
   }
 }
