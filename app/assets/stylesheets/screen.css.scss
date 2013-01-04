@@ -14,6 +14,7 @@ $header-background-top: #75959D;
 $header-background-middle: #698891;
 $header-background-bottom: #5D7A82;
 $header-gradient: linear-gradient($header-background-top, $header-background-middle 30%, $header-background-bottom);
+$code-background: #eee;
 
 body{
   font: 12pt Ubuntu, "Helvetica Neue", Helvetica;
@@ -109,4 +110,10 @@ nav#main-nav{
     top: -.15em;
     margin-right: 1em;
   }
+}
+pre {
+  @include border-radius($standard-radius);
+  background: $code-background;
+  border: 1px solid darken($code-background, 10%);
+  padding: 1em;
 }
