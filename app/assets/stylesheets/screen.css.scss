@@ -111,9 +111,18 @@ nav#main-nav{
     margin-right: 1em;
   }
 }
-pre {
+pre, code {
   @include border-radius($standard-radius);
   background: $code-background;
   border: 1px solid darken($code-background, 10%);
+}
+pre {
   padding: 1em;
+  code {
+    background: transparent;
+    border: none;
+  }
+}
+code {
+  padding: .25em;
 }
