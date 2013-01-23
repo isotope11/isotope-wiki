@@ -21,6 +21,7 @@ SimpleNavigation::Configuration.run do |navigation|
     #                            against the current URI.  You may also use a proc, or the symbol <tt>:subpath</tt>.
     #
     primary.item :home, t(:home), root_path
+    primary.item :recently_updated, t(:recently_updated), recently_updated_path
     primary.item :xrono, t(:xrono), 'http://xrono.isotope11.com'
     primary.item :forums, t(:forums), 'http://forums.isotope11.com'
     primary.dom_class = 'nav primary-nav'
