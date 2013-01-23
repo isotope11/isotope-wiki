@@ -1,6 +1,6 @@
 GIT
   remote: git@github.com:isotope11/wacky.git
-  revision: 2137cec5b296df3f63f4ccc9a6a120c7518adedd
+  revision: 37f41b15de0734dd89c89f81c83eae4a825266e7
   specs:
     wacky (0.0.2)
       ace-rails-ap
