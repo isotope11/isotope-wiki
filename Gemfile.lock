@@ -166,7 +166,7 @@ DEPENDENCIES
   compass-rails
   jquery-rails
   pg
-  rails (= 3.2.11)
+  rails (~> 3.2.11)
   sass-rails (~> 3.2.3)
   simple-navigation
   slim
