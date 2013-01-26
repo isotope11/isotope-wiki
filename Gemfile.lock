@@ -1,8 +1,8 @@
 GIT
   remote: git@github.com:isotope11/wacky.git
-  revision: 3c3dd1ec9af336436769c6916b83a9b51efef38a
+  revision: f05badbcae503f3081797551b101f0de490ed5c2
   specs:
-    wacky (0.1.0)
+    wacky (0.1.1)
       ace-rails-ap
       jquery-rails
       paper_trail
