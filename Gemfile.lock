@@ -1,8 +1,8 @@
 GIT
   remote: git@github.com:isotope11/wacky.git
-  revision: 8bdf6cf1a1339bf547a6d937a32ff027920b64f0
+  revision: dc16c6615cbbb3bf2ea0415e56d4db21d440a09b
   specs:
-    wacky (0.1.4)
+    wacky (0.1.5)
       ace-rails-ap
       jquery-rails
       nokogiri
