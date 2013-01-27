@@ -7,6 +7,7 @@ gem 'wacky', git: 'git@github.com:isotope11/wacky.git'
 gem 'slim'
 gem 'compass-rails'
 gem 'simple-navigation'
+gem 'pry'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
