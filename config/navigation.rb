@@ -22,6 +22,7 @@ SimpleNavigation::Configuration.run do |navigation|
     #
     primary.item :home, t(:home), root_path
     primary.item :recently_updated, t(:recently_updated), recently_updated_path
+    primary.item :all_pages, t(:all_pages), all_pages_path
     primary.item :xrono, t(:xrono), 'http://xrono.isotope11.com'
     primary.item :forums, t(:forums), 'http://forums.isotope11.com'
     primary.dom_class = 'nav primary-nav'
